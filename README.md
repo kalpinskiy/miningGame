@@ -1,0 +1,2 @@
+# miningGame
+simple mining game
