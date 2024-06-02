@@ -18,11 +18,6 @@ playInfo = playerInfo(player, mine)
 def icon(x,y):
     screen.blit(playerIcon,(x,y))
 
-#mine.grid[1][3] = 3
-#mine.grid[2][4] = 1
-
-#mine.print_grid()
-
 while True:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
