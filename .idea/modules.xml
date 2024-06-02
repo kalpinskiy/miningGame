@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../mineGame/.idea/mineGame.iml" filepath="$PROJECT_DIR$/../mineGame/.idea/mineGame.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/mineGamePython.iml" filepath="$PROJECT_DIR$/.idea/mineGamePython.iml" />
     </modules>
   </component>
