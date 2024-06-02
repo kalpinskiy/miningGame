@@ -1,6 +1,6 @@
 import pygame
 
-from myMine.MineGrid import MineGrid, MineBlock
+from firstPythonVersion.MineGrid import MineGrid, MineBlock
 
 
 class Player:
