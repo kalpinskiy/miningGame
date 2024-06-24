@@ -104,16 +104,7 @@ class MineGrid:
                     if self.grid[block.y][block.x + 1].type == "empty":
                         att.append(self.grid[block.y][block.x + 1])
 
-    def addLevel(self, xhit, att):
-        self.head = self.grid[0]
-        for l in range(self.numRows - 1):
-            self.grid[l] = self.grid[l + 1]
-        self.grid[self.numRows - 1] = self.bottom
-        self.bottom = [MineBlock(a, self.numRows, self) for a in range(self.numCol)]
-        self.bottom[xhit].setAttainable()
-        if self.bottom[xhit].type == "empty":
-            att.append(self.bottom[xhit])
-        return att
+
 
     def print_grid(self):
         for row in range(self.numRows):
